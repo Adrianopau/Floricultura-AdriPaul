@@ -1,0 +1,133 @@
+
+
+li{
+  float: left;
+}
+li a{
+  display: block;
+text-align: center;
+text-decoration: none;
+padding: 16px 16px;
+}
+.Fl{
+
+}
+/*Para fazer com que o texto mude de com e 
+e apresente uma mãozinha quando o cursor passar*/
+li a:hover{
+  color:brown;
+  background:yellowgreen ;
+
+}
+#TituloPrincipal{
+    text-transform: uppercase;
+    color:blue;
+  position:fixed;
+  background-color: #e2dede;
+  margin-top:-8px;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+}
+nav#menu ul{
+    color:blue;
+    list-style-type: none;
+    text-transform: uppercase;
+  position:fixed;/*Para que o menu não se mova*/
+  display:flex;
+  overflow: hidden;
+  background-color: rgb(24, 24, 23);
+margin-top:50px;
+ width: 100%;
+ 
+}
+.Fl a:hover{
+color:brow;
+background-color: yellowgreen;
+}
+
+
+section#corpo{
+ display:block;
+  width: 550px;
+  float:left;
+  padding: right 15px;
+}
+
+nav#card{
+  border:1px solid rgb(177, 175, 175) ;
+  background-color:rgb(236, 238, 237);
+  text-align: center;
+  height:230px;
+  width:360px;  
+}
+
+aside#lateral{
+  display:block;
+  width: 350px;
+  float:right;
+  border-left:2px solid #606060;
+}
+
+footer#Rodape{
+  clear:both;
+  border-top:1px solid
+}
+         p{
+           color:rgb(235, 17, 46)
+         } 
+
+        img{
+          width:100%;
+          height:300px;
+          margin-top:70px;
+        }
+      
+        
+      
+     .conteiner{
+       border-top: 2px solid red;
+          background-color:rgb(194, 175, 172);
+          display:flex;
+
+      
+        }
+        
+      .item1{
+            color:bisque;
+           background-color:blue;
+           width:400px;
+           height:110px;
+           text-align: center;
+      }
+     .item2{
+           color:bisque;
+           background-color:blue;
+           width:350px;
+           height:110px;
+           text-align: center;
+     }
+     .item3{
+           color:bisque;
+           background-color:blue;
+           width:350px;
+           height:110px;
+           text-align: center;
+     }
+      .content{
+      
+      width: 200px;
+      height: 200px;
+      margin-left: 25%;
+      padding: 10px;
+    }
+    .card{
+      background-color:rgb(206, 157, 96);
+      height: 100px;
+      width: 30%;
+      text-align: center;
+      margin-top: 660px;
+    
+    }
+
+  
